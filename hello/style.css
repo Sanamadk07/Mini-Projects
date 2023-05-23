@@ -252,9 +252,9 @@ span {
 }
 
 .project-details-img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     box-shadow: 20px 20px 10px var(--primary-color);
-    transform: skew(10deg);
+    transition: all 0.3s ease;
 }
 
 .title {
